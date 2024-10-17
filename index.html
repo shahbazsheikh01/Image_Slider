@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Slider</title>
+    <style>
+             body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+button#prevBtn {
+    left: 20px;
+    border: solid black 1px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    background: #02020200;
+    color: white;
+    padding: 10px 40px;
+    font-size: 16px;
+    
+}
+button#nextBtn {
+     right: 20px;
+    border: solid black 1px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    background: #02020200;
+    color: white;
+    padding: 10px 40px;
+    font-size: 16px;
+}
+button#nextBtn:hover, button#prevBtn:hover{
+    background:black;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="carousal" src="bike1.jpg" alt="" width="100%" height="100%" >
+        <button id="prevBtn" onClick="nextSlide('--')">Prev</button>
+        <button id="nextBtn" onClick="nextSlide('+')">Next</button>
+    </div>
+    
+    <script src="apps.js"></script>
+</body>
+</html>
