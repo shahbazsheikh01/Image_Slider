@@ -1,5 +1,5 @@
 var elm = document.getElementById("carousal");
-var links = ["bike1.Jpg","bike2.Jpg" , "bike3.Jpg" , "bike4.Jpg", "bike5.Jpg"];
+var links = ["bike1.jpg","bike2.jpg" , "bike3.jpg" , "bike4.jpg", "bike5.jpg"];
 var count = 0
 function nextSlide(value){
     if(count>4 ){
